@@ -7,9 +7,9 @@ public class Main {
         String operation = myScanner.nextLine(); // Take in User Input
 
         System.out.println("Enter the first number: ");
-        Integer num1 = myScanner.nextInt();
+        int num1 = myScanner.nextInt();
         System.out.println("Enter the second number: ");
-        Integer num2 = myScanner.nextInt();
+        int num2 = myScanner.nextInt();
 
         if (operation.equals("Add")) {
           System.out.println(num1 + num2);
